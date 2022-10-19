@@ -10,7 +10,7 @@ const Home = ({ exploreData, cardsData }) => {
   return (
     <div className="">
       <Head>
-        <title>Airbnb</title>
+        <title>Aluguéis de Condomínio e Casas de Veraneio - Airbnb</title>
         <link rel="icon" href="iconelogo.svg" />
       </Head>
 
