@@ -10,7 +10,7 @@ const Home = ({ exploreData, cardsData }) => {
   return (
     <div className="">
       <Head>
-        <title>Aluguéis de Condomínio e Casas de Veraneio - Airbnb</title>
+        ya <title>Aluguéis de Condomínio e Casas de Veraneio - Airbnb</title>
         <link rel="icon" href="iconelogo.svg" />
       </Head>
 
@@ -29,7 +29,7 @@ const Home = ({ exploreData, cardsData }) => {
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
             {exploreData?.map((item) => (
               <SmallCard
-                key={item}
+                key={item.img}
                 img={item.img}
                 distance={item.distance}
                 location={item.location}
@@ -51,12 +51,12 @@ const Home = ({ exploreData, cardsData }) => {
 
         {/* Large Card */}
         <section>
-              <LargeCard
-                img='https://links.papareact.com/4cj'
-                title='The Greatest Outdoors'
-                description='Wishlists curated by Airbnb'
-                buttonText='Get Inspired'
-              />
+          <LargeCard
+            img="https://links.papareact.com/4cj"
+            title="The Greatest Outdoors"
+            description="Wishlists curated by Airbnb"
+            buttonText="Get Inspired"
+          />
         </section>
       </main>
 
