@@ -1,1 +1,7 @@
-this is a interpretation of Airbnb using Next.js Tailwind, Mapbox, Calendar and Date Picker.
+# This is a interpretation of Airbnb
+
+* Next.js 
+* Tailwind 
+* Mapbox 
+* Calendar 
+* Date Picker
